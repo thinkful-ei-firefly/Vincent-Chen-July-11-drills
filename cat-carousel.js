@@ -1,3 +1,8 @@
+function thumbnailClicks(){}
 $('.thumbnail').on('click', function() {
-  var src= ($(this).attr('src')==='img1_on.jpg')
+  $(this).find('img').attr('src');
+  $(this).find('img').attr('alt');
 });
+}
+
+$(thumbnailClicks)
